@@ -1,0 +1,49 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+crash.log
+.terraform/
+.terraform.lock.hcl
+
+# Ignore local environment files
+.env
+.env.*
+secrets.tfvars
+terraform.tfvars
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore IDE and editor files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore Python bytecode if using Python scripts
+__pycache__/
+*.pyc
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore zip or archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Recommended: ensure .terraform plugins and download cache are not committed
+# (this prevents provider binaries from being pushed to the repo)
+.terraform/
+.terraform/*
+
+# Lock file and crash logs
+.terraform.lock.hcl
+crash.log
